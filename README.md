@@ -1,2 +1,1 @@
-# py.ini.key
-key builder from .ini init files
+load a binary load number
