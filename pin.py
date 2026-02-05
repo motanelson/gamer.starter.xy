@@ -38,8 +38,8 @@ pic = ImageTk.PhotoImage(img)
 pic2 = ImageTk.PhotoImage(img2)
 xy=[]
 for n in range(20):
-    xx=int(random.random()*600)
-    yy=int(random.random()*400)
+    xx=int((random.random()*60)*10)
+    yy=int((random.random()*40)*10)
     xy=xy+[xx]+[yy]
 rect = canvas.create_image(50, 50, image=pic)
 lens=int(len(xy)//2)
